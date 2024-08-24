@@ -9,3 +9,6 @@ Watch this tutorial: https://www.youtube.com/watch?v=Oe-7dGDyzPM
 7. upload the pdf file(s)
 8. write: python localrag.py
 9. now you can ask questions
+
+Chatgpt Chain of thoughts results: https://chatgpt.com/share/25c1d162-cd6e-4937-85ee-025496d9fe54 
+300 software requirements, 100 for message.
