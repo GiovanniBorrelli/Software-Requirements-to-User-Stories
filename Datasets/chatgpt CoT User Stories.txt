@@ -1,0 +1,134 @@
+Here are the user stories formatted as "As a [actor], I want to [action] so that [goal]" for each actor, action, and goal identified:
+
+### User
+1. **Generate hardcopy or electronic output of patient’s medical record**
+   - As a User, I want to generate hardcopy or electronic output of a patient’s medical record so that I can provide physical or digital copies for various purposes such as patient review, legal requirements, or external consultations.
+
+2. **Access reports outside the EHR application**
+   - As a User, I want to access reports outside the EHR application so that I can view and utilize reports from outside the application, offering flexibility in accessing critical data.
+
+3. **Save and modify report parameters**
+   - As a User, I want to save and modify report parameters so that I can streamline report generation by saving frequently used settings and easily adjust parameters for different needs.
+
+4. **Document encounters using various means (e.g., text, templates, dictation)**
+   - As a User, I want to document encounters using various means such as text, templates, or dictation so that I can ensure accurate and comprehensive documentation of patient encounters in a way that fits my workflow preferences.
+
+5. **Specify role of each provider associated with a patient**
+   - As a User, I want to specify the role of each provider associated with a patient so that I can clearly define and manage the roles of various providers involved in patient care, ensuring proper documentation and accountability.
+
+6. **Enter structured responses when overriding warnings**
+   - As a User, I want to enter structured responses when overriding warnings so that I can maintain a record of reasons for overriding clinical warnings, supporting transparency and accountability in clinical decision-making.
+
+7. **Attach comments to results**
+   - As a User, I want to attach comments to results so that I can provide additional context or clarifications regarding medical results, aiding in better interpretation and decision-making.
+
+### Clinical User
+1. **View full content of a finalized note**
+   - As a Clinical User, I want to view the full content of a finalized note so that I can access the complete and final documentation for accurate review and follow-up.
+
+2. **Document disputes with chart information**
+   - As a Clinical User, I want to document disputes with chart information so that I can allow patients to formally dispute inaccuracies or disagreements with their medical records, ensuring patient rights and record accuracy.
+
+3. **Access and update clinical content or rules for decision support**
+   - As a Clinical User, I want to access and update clinical content or rules for decision support so that I can ensure that clinical decision support tools reflect the most current guidelines and practices, improving patient care.
+
+4. **Create, modify, and view patient records and summaries**
+   - As a Clinical User, I want to create, modify, and view patient records and summaries so that I can maintain comprehensive and up-to-date patient records for effective clinical management and decision-making.
+
+### Authorized User
+1. **Authenticate access to Protected Health Information (PHI)**
+   - As an Authorized User, I want to authenticate access to Protected Health Information (PHI) so that I can ensure only authorized individuals can access sensitive patient information, protecting privacy and compliance with regulations.
+
+2. **Read audit information**
+   - As an Authorized User, I want to read audit information so that I can review and analyze audit logs for security and compliance purposes, ensuring the integrity of system access and usage.
+
+3. **Set inclusion or exclusion of auditable events**
+   - As an Authorized User, I want to set inclusion or exclusion of auditable events so that I can customize audit logging based on organizational needs and policy requirements, ensuring relevant events are captured and reviewed.
+
+### Administrator
+1. **Assign restrictions or privileges to users or groups**
+   - As an Administrator, I want to assign restrictions or privileges to users or groups so that I can control access to system features and data based on user roles, ensuring appropriate permissions and protecting sensitive information.
+
+2. **Update clinical decision support guidelines and reference material**
+   - As an Administrator, I want to update clinical decision support guidelines and reference material so that I can keep clinical decision support tools current with evolving guidelines and evidence, enhancing their effectiveness in patient care.
+
+3. **Maintain directories of clinical personnel and update them**
+   - As an Administrator, I want to maintain directories of clinical personnel and update them so that I can ensure the system reflects accurate and up-to-date information about clinical staff, supporting effective communication and management.
+
+4. **Manage and review audit logs**
+   - As an Administrator, I want to manage and review audit logs so that I can ensure security and compliance are maintained by addressing any identified issues.
+
+5. **Set and manage system configuration and security controls**
+   - As an Administrator, I want to set and manage system configuration and security controls so that I can configure the system to meet organizational needs and ensure secure and reliable operation.
+
+### Pharmacy
+1. **Send and receive electronic prescriptions**
+   - As a Pharmacy, I want to send and receive electronic prescriptions so that I can facilitate the efficient and accurate exchange of prescription information with healthcare providers.
+
+2. **Respond to refill requests**
+   - As a Pharmacy, I want to respond to refill requests so that I can ensure timely processing of medication refills, supporting continuous patient care.
+
+3. **Capture and display formulary information**
+   - As a Pharmacy, I want to capture and display formulary information so that I can provide relevant details about covered medications and their availability, aiding in prescribing decisions.
+
+4. **Query medication history**
+   - As a Pharmacy, I want to query medication history so that I can review a patient’s medication history for informed prescribing and to avoid potential drug interactions.
+
+### Patient
+1. **Provide consent and authorization**
+   - As a Patient, I want to provide consent and authorization so that I can comply with legal and regulatory requirements for accessing and sharing my personal health information.
+
+2. **Receive reminders for disease management, preventive, and wellness services**
+   - As a Patient, I want to receive reminders for disease management, preventive, and wellness services so that I can stay informed and engaged in my care and preventive health activities.
+
+3. **Dispute information in their chart**
+   - As a Patient, I want to dispute information in my chart so that I can ensure the accuracy of my medical records and address any errors or discrepancies that could impact my care.
+
+### Insurance Carrier
+1. **Provide medical eligibility information**
+   - As an Insurance Carrier, I want to provide medical eligibility information so that I can confirm patient coverage and eligibility for medical services, facilitating accurate billing and care coordination.
+
+### Pharmacy Benefits Manager (PBM)
+1. **Capture and display formulary information**
+   - As a Pharmacy Benefits Manager (PBM), I want to capture and display formulary information so that I can provide up-to-date medication formulary details for informed prescribing and benefit management.
+
+2. **Provide medication history and formulary data**
+   - As a Pharmacy Benefits Manager (PBM), I want to provide medication history and formulary data so that I can offer comprehensive information for informed prescribing and benefit management.
+
+### External Application
+1. **Interoperate with the EHR system to provide or receive data**
+   - As an External Application, I want to interoperate with the EHR system to provide or receive data so that I can enable seamless data exchange and integration between the EHR system and other applications for improved patient care and system functionality.
+
+### External Sources
+1. **Provide guidelines, protocols, and reference materials**
+   - As an External Source, I want to provide guidelines, protocols, and reference materials so that I can ensure the EHR system is equipped with the latest clinical guidelines and reference materials, supporting informed decision-making.
+
+### Vendor
+1. **Provide documentation for system patches, capacities, and installation procedures**
+   - As a Vendor, I want to provide documentation for system patches, capacities, and installation procedures so that I can ensure proper system maintenance, installation, and operational capacity, facilitating smooth system updates and troubleshooting.
+
+2. **Self-certify compliance with malware scanning**
+   - As a Vendor, I want to self-certify compliance with malware scanning so that I can assure that the software is free from malicious threats, protecting system security and data integrity.
+
+### System
+1. **Support concurrent user interactions**
+   - As a System, I want to support concurrent user interactions so that I can enable multiple users to work with the system simultaneously without conflicts, enhancing productivity and collaboration.
+
+2. **Maintain and protect the integrity of clinical data**
+   - As a System, I want to maintain and protect the integrity of clinical data so that I can ensure patient data remains accurate and secure during access and updates, supporting reliable clinical decision-making.
+
+3. **Capture, store, and manage data related to medications, immunizations, orders, and results**
+   - As a System, I want to capture, store, and manage data related to medications, immunizations, orders, and results so that I can provide a comprehensive record of patient care activities and ensure that data is available for review and decision-making.
+
+4. **Encrypt data and ensure confidentiality and integrity of PHI**
+   - As a System, I want to encrypt data and ensure confidentiality and integrity of PHI so that I can protect patient information from unauthorized access and breaches, complying with privacy regulations and ensuring data security.
+
+5. **Implement time synchronization and audit logging**
+   - As a System, I want to implement time synchronization and audit logging so that I can maintain accurate and consistent time records for system activities and ensure that audit logs are complete and reliable.
+
+### Provider
+1. **Prescribe medications and order tests**
+   - As a Provider, I want to prescribe medications and order tests so that I can manage patient care effectively based on clinical assessments and needs.
+
+2. **View and interact with patient records**
+   - As a Provider, I want to view and interact with patient records so that I can access and review patient information for
