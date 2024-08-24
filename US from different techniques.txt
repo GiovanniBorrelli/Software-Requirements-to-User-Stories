@@ -1,0 +1,101 @@
+US from RAG, ollama (mxbai-embed-large and llama3). As knowledge base, the document containing all he requirements was used.
+
+1. As a user, I want to create and assign tasks by user or user role so that I can manage workload efficiently, prioritize tasks, and delegate responsibilities.
+2. As a user, I want to view task lists by user or user role so that I can stay on top of task status, identify dependencies, and make informed decisions about task completion.
+3. As a user, I want to re-assign and route tasks from one user to another so that I can delegate tasks effectively, avoid bottlenecks, and ensure timely completion.
+4. As a user, I want to designate a task as completed so that I can mark tasks as finished, track progress, and provide a sense of accomplishment.
+5. As a user, I want to remove a task without completing it so that I can cancel or abandon tasks that are no longer relevant or necessary, freeing up resources for more important tasks.
+6. As a user, I want to document verbal or telephone communication into the patient record so that I can maintain accurate and comprehensive patient records, ensuring continuity of care.
+7. As a user, I want to use messaging between users so that I can communicate effectively with colleagues, patients, or other stakeholders within the system.
+8. As an administrator, I want to manage system installation, start-up, and connection so that I can ensure seamless setup and integration of the system, minimizing downtime and errors.
+9. As an administrator, I want to configure product capacities so that I can optimize system performance, scalability, and reliability.
+10. As an administrator, I want to provide documentation on system error or performance messages so that users can troubleshoot issues quickly and receive support.
+11. As an administrator, I want to document procedures for product installation, start-up, and connection so that I can establish consistent practices and ensure proper setup for all users.
+12. As an administrator, I want to define minimal privileges necessary for each service and protocol so that I can set permissions and access controls, ensuring secure and authenticated interactions.
+13. As a prescriber, I want to send electronic medication orders to pharmacies or other intended recipients so that I can streamline medication ordering, improving patient care and reducing administrative burdens.
+14. As a prescriber, I want to use the system for communication purposes with pharmacies or other recipients of medication orders so that I can initiate and manage conversations about patients' medication regimens and treatment plans.
+15. As a pharmacist, I want to receive electronic medication orders from prescribers through the system so that I can access accurate, up-to-date information on patient medication needs and orders.
+16. As a clinical personnel member, I want to access and use the system so that I can stay informed about patient medical records, test results, and clinical developments.
+17. As a clinical personnel manager, I want to maintain a directory of all clinical personnel who currently use or access the system so that I can keep an updated roster of qualified professionals working within the system.
+
+------------------------------------------------------------------------------------------------------------
+
+Us from Chain of Thoughts, and ChatGPT-4o
+
+Certainly! Here are the user stories:
+
+1. As a User, I want to generate hardcopy or electronic output of a patient’s medical record so that I can provide physical or digital copies for various purposes such as patient review, legal requirements, or external consultations.
+
+2. As a User, I want to access reports outside the EHR application so that I can view and utilize reports from outside the application, offering flexibility in accessing critical data.
+
+3. As a User, I want to save and modify report parameters so that I can streamline report generation by saving frequently used settings and easily adjust parameters for different needs.
+
+4. As a User, I want to document encounters using various means such as text, templates, or dictation so that I can ensure accurate and comprehensive documentation of patient encounters in a way that fits my workflow preferences.
+
+5. As a User, I want to specify the role of each provider associated with a patient so that I can clearly define and manage the roles of various providers involved in patient care, ensuring proper documentation and accountability.
+
+6. As a User, I want to enter structured responses when overriding warnings so that I can maintain a record of reasons for overriding clinical warnings, supporting transparency and accountability in clinical decision-making.
+
+7. As a User, I want to attach comments to results so that I can provide additional context or clarifications regarding medical results, aiding in better interpretation and decision-making.
+
+8. As a Clinical User, I want to view the full content of a finalized note so that I can access the complete and final documentation for accurate review and follow-up.
+
+9. As a Clinical User, I want to document disputes with chart information so that I can allow patients to formally dispute inaccuracies or disagreements with their medical records, ensuring patient rights and record accuracy.
+
+10. As a Clinical User, I want to access and update clinical content or rules for decision support so that I can ensure that clinical decision support tools reflect the most current guidelines and practices, improving patient care.
+
+11. As a Clinical User, I want to create, modify, and view patient records and summaries so that I can maintain comprehensive and up-to-date patient records for effective clinical management and decision-making.
+
+12. As an Authorized User, I want to authenticate access to Protected Health Information (PHI) so that I can ensure only authorized individuals can access sensitive patient information, protecting privacy and compliance with regulations.
+
+13. As an Authorized User, I want to read audit information so that I can review and analyze audit logs for security and compliance purposes, ensuring the integrity of system access and usage.
+
+14. As an Authorized User, I want to set inclusion or exclusion of auditable events so that I can customize audit logging based on organizational needs and policy requirements, ensuring relevant events are captured and reviewed.
+
+15. As an Administrator, I want to assign restrictions or privileges to users or groups so that I can control access to system features and data based on user roles, ensuring appropriate permissions and protecting sensitive information.
+
+16. As an Administrator, I want to update clinical decision support guidelines and reference material so that I can keep clinical decision support tools current with evolving guidelines and evidence, enhancing their effectiveness in patient care.
+
+17. As an Administrator, I want to maintain directories of clinical personnel and update them so that I can ensure the system reflects accurate and up-to-date information about clinical staff, supporting effective communication and management.
+
+18. As an Administrator, I want to manage and review audit logs so that I can ensure security and compliance are maintained by addressing any identified issues.
+
+19. As an Administrator, I want to set and manage system configuration and security controls so that I can configure the system to meet organizational needs and ensure secure and reliable operation.
+
+20. As a Pharmacy, I want to send and receive electronic prescriptions so that I can facilitate the efficient and accurate exchange of prescription information with healthcare providers.
+
+21. As a Pharmacy, I want to respond to refill requests so that I can ensure timely processing of medication refills, supporting continuous patient care.
+
+22. As a Pharmacy, I want to capture and display formulary information so that I can provide relevant details about covered medications and their availability, aiding in prescribing decisions.
+
+23. As a Pharmacy, I want to query medication history so that I can review a patient’s medication history for informed prescribing and to avoid potential drug interactions.
+
+24. As a Patient, I want to provide consent and authorization so that I can comply with legal and regulatory requirements for accessing and sharing my personal health information.
+
+25. As a Patient, I want to receive reminders for disease management, preventive, and wellness services so that I can stay informed and engaged in my care and preventive health activities.
+
+26. As a Patient, I want to dispute information in my chart so that I can ensure the accuracy of my medical records and address any errors or discrepancies that could impact my care.
+
+27. As an Insurance Carrier, I want to provide medical eligibility information so that I can confirm patient coverage and eligibility for medical services, facilitating accurate billing and care coordination.
+
+28. As a Pharmacy Benefits Manager (PBM), I want to capture and display formulary information so that I can provide up-to-date medication formulary details for informed prescribing and benefit management.
+
+29. As a Pharmacy Benefits Manager (PBM), I want to provide medication history and formulary data so that I can offer comprehensive information for informed prescribing and benefit management.
+
+30. As an External Application, I want to interoperate with the EHR system to provide or receive data so that I can enable seamless data exchange and integration between the EHR system and other applications for improved patient care and system functionality.
+
+31. As an External Source, I want to provide guidelines, protocols, and reference materials so that I can ensure the EHR system is equipped with the latest clinical guidelines and reference materials, supporting informed decision-making.
+
+32. As a Vendor, I want to provide documentation for system patches, capacities, and installation procedures so that I can ensure proper system maintenance, installation, and operational capacity, facilitating smooth system updates and troubleshooting.
+
+33. As a Vendor, I want to self-certify compliance with malware scanning so that I can assure that the software is free from malicious threats, protecting system security and data integrity.
+
+34. As a System, I want to support concurrent user interactions so that I can enable multiple users to work with the system simultaneously without conflicts, enhancing productivity and collaboration.
+
+35. As a System, I want to maintain and protect the integrity of clinical data so that I can ensure patient data remains accurate and secure during access and updates, supporting reliable clinical decision-making.
+
+36. As a System, I want to capture, store, and manage data related to medications, immunizations, orders, and results so that I can provide a comprehensive record of patient care activities and ensure that data is available for review and decision-making.
+
+37. As a System, I want to encrypt data and ensure confidentiality and integrity of PHI so that I can protect patient information from unauthorized access and breaches, complying with privacy regulations and ensuring data security.
+
+38. As a System, I want to implement time synchronization and audit logging so that I can maintain accurate and consistent time records for system activities and ensure that audit logs are complete and reliable.
