@@ -1,0 +1,623 @@
+Healthcare provider
+Patient data entry staff 
+Report generator
+Data administrator
+Patient
+User 
+Prescriber
+System
+Authorized user 
+Cosigner
+Administrator (System Administrator)
+Data Analyst
+Clinician
+Laboratory System
+System Auditing Team 
+-----------------------------
+Healthcare Provider
+
+Create a single patient record (Req. 1)
+Associate key identifier information with patient records (Req. 2)
+Store more than one identifier per patient record (Req. 3)
+Merge patient information from two records into a single record (Req. 4)
+Update demographic information about patients (Req. 10, 11)
+Access demographic information for patient care functions (Req. 12)
+Query for patients by multiple forms of identification (Req. 14)
+Capture and maintain provider associations with patient encounters (Req. 15)
+Associate orders, medications, and notes with problems or diagnoses (Req. 21)
+Update problem or diagnosis list with user ID and date (Req. 20)
+Review and update allergy lists (Req. 28-31)
+Patient Data Entry Staff
+
+Enter demographic information about patients (Req. 7, 8, 9)
+Capture medications entered by authorized users other than the prescriber (Req. 45)
+Update medication list with user ID and date (Req. 46)
+Report Generator
+
+Include demographic information in reports (Req. 5)
+Display medication history for patients (Req. 53)
+Generate current medication lists (Req. 55, 56)
+Data Administrator
+
+Maintain historic information for demographic data (Req. 6)
+Store medication information in discrete data fields (Req. 48)
+Patient
+
+Have a single patient record created (Req. 1)
+Be associated with key identifier information (Req. 2)
+Have multiple identifiers stored per record (Req. 3)
+Have demographic information updated by healthcare providers (Req. 10, 11)
+Access demographic information for patient care functions (Req. 12)
+User
+
+Query for patients by multiple forms of identification (Req. 14)
+Capture and maintain provider associations with patient encounters (Req. 15)
+Associate orders, medications, and notes with problems or diagnoses (Req. 21)
+Update problem or diagnosis list with user ID and date (Req. 20)
+Prescriber
+
+Record the prescribing of medications including prescriber identity (Req. 37)
+Capture medications entered by authorized users other than themselves (Req. 45)
+Update medication list with user ID and date (Req. 46)
+System
+
+Create a single patient record (Req. 1)
+Associate key identifier information with patient records (Req. 2)
+Store more than one identifier per patient record (Req. 3)
+Merge patient information from two records into a single record (Req. 4)
+Authorized User
+
+Capture and maintain provider associations with patient encounters (Req. 15)
+Associate orders, medications, and notes with problems or diagnoses (Req. 21)
+Update problem or diagnosis list with user ID and date (Req. 20)
+Enter uncoded or free text medications (Req. 47)
+Cosigner
+
+Review and update allergy lists (Req. 28-31)
+Administrator (System Administrator)
+
+Maintain historic information for demographic data (Req. 6)
+Store medication information in discrete data fields (Req. 48)
+Data Analyst
+
+Analyze patient history data (Req. 60)
+Clinician
+
+Access demographic information for patient care functions (Req. 12)
+Associate orders, medications, and notes with problems or diagnoses (Req. 21)
+Update problem or diagnosis list with user ID and date (Req. 20)
+Review and update allergy lists (Req. 28-31)
+Lab Technician
+
+Analyze patient lab results data (Req. 60)
+
+--
+Data Administrator
+
+Index scanned documents and associate date/document type
+Retrieve indexed scanned documents based on document type/date
+Accept, store, and display clinical results from external sources
+Produce patient instructions and educational materials
+Patient
+
+None (patients do not perform actions in the system; they are recipients of information)
+
+User
+
+Save notes in progress prior to finalizing
+Finalize notes with user identity and date/time stamp
+Cosign notes and record date/time stamp
+Addend possibly and possibly correct finalized notes
+Prescriber
+
+Create prescription or other medication orders
+Record user and date stamp for prescription events (creation, renewal, etc.)
+Capture prescribing provider identity
+Receive and display information from electronic prescription eligibility checking
+Reorder prior prescriptions without re-entering data
+System
+
+None (system-level functions are not explicitly mentioned as functionalities)
+
+Authorized User
+
+Set normal ranges for vital sign measurements
+Customize clinical templates
+Modify patient-specific test and procedure instructions
+Cosigner
+
+None (cosigning functionality is already attributed to the Healthcare Provider actor)
+
+Administrator (System Administrator)
+
+Create patient-specific instructions
+Review medication information (such as patient education material or drug monograph)
+Record user identity and date/time for medication-related events
+Data Analyst
+
+None (data analysis functions are not explicitly mentioned in this context)
+
+Clinician
+
+None (clinician-level functions are covered by the Healthcare Provider actor)
+
+Laboratory System
+
+None (this system is an external source; its functionality is not attributed to a specific actor within this list)
+
+System Auditing Team
+
+Retrieve indexed scanned documents based on document type/date
+Review patient-specific test and procedure instructions
+---
+1. Healthcare Provider
+
+Display a dose calculator for patient-specific dosing based on weight (Req 2)
+Prescribe fractional amounts of medication (Req 4)
+Create provider specific medication lists of the most commonly prescribed drugs with a default route, dose, frequency, and quantity (Req 9)
+Add reminders for necessary follow up tests based on medication prescribed (Req 10)
+Alert users about potential interactions between medications to be prescribed and medication allergies and intolerances listed in the record (Req 32)
+2. Patient Data Entry Staff
+
+Capture and maintain a diagnosis or problem code or description associated with an order of any type (including prescriptions and medications ordered for administration) as discrete data (Req 8)
+Capture appropriate order entry detail, including associated diagnosis (Req 17)
+Display user-created instructions possibly and possibly prompts when ordering diagnostic tests or procedures (Req 20)
+3. Report Generator
+
+Generate reports on medication samples dispensed, including lot number and expiration date (Req 3)
+Generate reports on prescriptions, including dosing information and any alerts about potential interactions (Req 4, Req 32)
+4. Data Administrator
+
+Maintain a coded list of medications, including a unique identifier for each medication (Req 25)
+Store and display administrative documents (e.g., privacy notices) (Req 24)
+5. Patient
+
+Receive reminders for necessary follow-up tests based on medication prescribed (Req 10)
+Acknowledge results presented to them (Req 26)
+6. User
+
+Search for medications by generic or brand name (Req 27)
+Order diagnostic tests, including labs and imaging studies (Req 18)
+Display orders placed through an order set either individually or as a group (Req 28)
+Filter or sort results by type of test and test date (Req 30)
+Forward a result to other users (Req 31)
+7. Prescriber
+
+Prescribe medications, including fractions amounts (Req 4)
+Add reminders for necessary follow-up tests based on medication prescribed (Req 10)
+Alert users about potential interactions between medications to be prescribed and medication allergies and intolerances listed in the record (Req 32)
+8. System
+
+Provide a view of active orders for an individual patient (Req 19)
+Provide a view of orders by like or comparable type, e.g., all radiology or all lab orders (Req 20)
+Display outstanding orders for multiple patients (Req 21)
+View status information for ordered services (Req 22)
+Define a set of items to be ordered as a group through order sets (Req 29)
+Modify order sets (Req 30)
+9. Authorized User
+
+Access reference information for prescribing or ordering (Req 28)
+Attach a free text comment to a result that can be seen by another user who might subsequently view that result (Req 31)
+Associate one or more images with a non-numeric result (Req 32)
+10. Cosigner
+
+No specific functionalities mentioned
+11. Administrator (System Administrator)
+
+Manage site-specific care plan, protocol, and guideline documents (Req 29)
+Modify site-specific standard care plan, protocol, and guideline documents obtained from outside sources (Req 30)
+12. Data Analyst
+
+Analyze medication samples dispensed, including lot number and expiration date (Req 3)
+Analyze results, including numerical results in flow sheets and graphical form (Req 23)
+13. Clinician
+
+Prescribe medications, including fractions amounts (Req 4)
+Add reminders for necessary follow-up tests based on medication prescribed (Req 10)
+Alert users about potential interactions between medications to be prescribed and medication allergies and intolerances listed in the record (Req 32)
+
+Healthcare Provider
+
+Ability to override drug-drug or drug-allergy/intolerance interaction warnings (Req 7)
+Ability to view rationale for drug interaction alerts (Req 8)
+Ability to prescribe/order medication despite interactions (Req 9)
+Ability to capture medication administration details (Req 10)
+Ability to establish criteria for disease management/wellness/preventive services based on clinical data (Req 17)
+Ability to update disease management guidelines and reference material (Req 19)
+Ability to override guidelines (Req 20)
+Ability to document reasons for overriding disease management or preventive services prompts (Req 21)
+Patient Data Entry Staff
+
+No specific functionalities assigned, as most requirements are related to healthcare providers or system functionality.
+Report Generator
+
+Ability to produce a list of patients due/overdue for disease management/preventive/wellness services (Req 25)
+Ability to automatically generate reminder letters for patients due/overdue for disease management/preventive/wellness services (Req 26)
+Data Administrator
+
+No specific functionalities assigned, as most requirements are related to healthcare providers or system functionality.
+Patient
+
+No specific functionalities assigned, as most requirements are related to healthcare providers or system functionality.
+User
+
+Ability to enter structured response when overriding drug-drug or drug-allergy/intolerance warning (Req 11)
+Ability to prescribe/order medication despite interactions (Req 9)
+Prescriber
+
+Ability to override drug-drug or drug-allergy/intolerance interaction warnings (Req 7)
+Ability to view rationale for drug interaction alerts (Req 8)
+Ability to prescribe/order medication despite interactions (Req 9)
+Ability to capture medication administration details (Req 10)
+System
+
+Ability to provide drug-drug or drug-allergy/intolerance interaction warnings based on severity level (Req 1)
+Ability to display potential drug-allergy/drug-drug/drug-diagnosis interactions (Req 2)
+Ability to check for potential interactions between medications to be prescribed/ordered and current medications (Req 4)
+Ability to capture medication administration details as discrete data (Req 10)
+Ability to capture immunization administration details as discrete data (Req 12)
+Authorized User
+
+No specific functionalities assigned, as most requirements are related to healthcare providers or system functionality.
+Cosigner
+
+No specific functionalities assigned, as most requirements are related to healthcare providers or system functionality.
+Administrator (System Administrator)
+
+Ability to update disease management guidelines and reference material (Req 19)
+Ability to update preventive services/wellness guidelines and reference material (Req 20)
+Data Analyst
+
+No specific functionalities assigned, as most requirements are related to healthcare providers or system functionality.
+Clinician
+
+Ability to establish criteria for disease management/wellness/preventive services based on clinical data (Req 17)
+Ability to override guidelines (Req 20)
+Ability to document reasons for overriding disease management or preventive services prompts (Req 21)
+Laboratory System
+
+No specific functionalities assigned, as most requirements are related to healthcare providers or system functionality.
+System Auditing Team
+
+No specific functionalities assigned, as most requirements are related to healthcare providers or system functionality.
+
+Healthcare Provider
+
+Assign tasks by user or user role (Req 1)
+Re-assign and route tasks from one user to another user (Req 3)
+Designate a task as completed (Req 5)
+Document verbal or telephone communication into the patient record (Req 8)
+Generate reports of clinical and administrative data using internal or external reporting tools (Req 23)
+Generate reports regarding multiple patients (e.g., diabetes roster) (Req 25)
+Specify report parameters based on patient demographic and clinical data (Req 26)
+Access reports outside the EHR application (Req 27)
+Define one or more reports as the formal health record for disclosure purposes (Req 31)
+Document encounters by direct keyboard entry of text, structured data entry, dictation with subsequent transcription, or voice recognition system (Req 38)
+Associate individual encounters with diagnoses (Req 40)
+Patient Data Entry Staff
+
+Create and assign tasks by user or user role (Req 1)
+Present a list of tasks by user or user role (Req 2)
+Document verbal or telephone communication into the patient record (Req 8)
+Generate reports regarding multiple patients (e.g., diabetes roster) (Req 25)
+Specify report parameters based on patient demographic and clinical data (Req 26)
+Report Generator
+
+Generate reports of clinical and administrative data using internal or external reporting tools (Req 23)
+Generate reports regarding multiple patients (e.g., diabetes roster) (Req 25)
+Specify report parameters based on patient demographic and clinical data (Req 26)
+Access reports outside the EHR application (Req 27)
+Define one or more reports as the formal health record for disclosure purposes (Req 31)
+Data Administrator
+
+Update the directory of all clinical personnel who currently use or access the system (Req 11)
+Update the directory which contains identifiers required for licensed clinicians to support the practice of medicine (Req 12)
+Allow authorized users to update the directory (Req 14)
+Create and maintain a directory of clinical personnel external to the organization (Req 15)
+Patient
+
+Document encounters by direct keyboard entry of text, structured data entry, dictation with subsequent transcription, or voice recognition system (Req 38)
+Associate individual encounters with diagnoses (Req 40)
+User
+
+Assign tasks by user or user role (Req 1)
+Re-assign and route tasks from one user to another user (Req 3)
+Designate a task as completed (Req 5)
+Document verbal or telephone communication into the patient record (Req 8)
+Generate reports regarding multiple patients (e.g., diabetes roster) (Req 25)
+Specify report parameters based on patient demographic and clinical data (Req 26)
+Prescriber
+
+Provide electronic communication between prescribers and pharmacies or other intended recipients of the medication order (Req 9)
+Document encounters by direct keyboard entry of text, structured data entry, dictation with subsequent transcription, or voice recognition system (Req 38)
+Associate individual encounters with diagnoses (Req 40)
+System
+
+Provide the ability to create and assign tasks by user or user role (Req 1)
+Provide the ability to present a list of tasks by user or user role (Req 2)
+Provide the ability to re-assign and route tasks from one user to another user (Req 3)
+Authorized User
+
+Update the directory which contains identifiers required for licensed clinicians to support the practice of medicine (Req 12)
+Allow authorized users to update the directory (Req 14)
+Generate reports of clinical and administrative data using internal or external reporting tools (Req 23)
+Define one or more reports as the formal health record for disclosure purposes (Req 31)
+Cosigner
+
+Document encounters by direct keyboard entry of text, structured data entry, dictation with subsequent transcription, or voice recognition system (Req 38)
+Associate individual encounters with diagnoses (Req 40)
+Administrator (System Administrator)
+
+Update the clinical content or rules utilized to generate clinical decision support reminders and alerts (Req 29)
+Update clinical decision support guidelines and associated reference material (Req 30)
+Capture and maintain, as discrete data, the reason for variation from rule-based clinical messages (Req 32)
+Clinical Decision Support System
+
+Provide clinical decision support guidelines and associated reference material (Req 30)
+Update clinical decision support guidelines and associated reference material (Req 30)
+
+Healthcare Provider
+
+View patient summary documents (HITSP C32 or CCD)
+Access confidential information
+View finalized notes and modifications
+Save and finalize notes
+Record and display user credentials for note entries
+Patient Data Entry Staff
+
+Enter patient data
+Save notes in progress
+Access patient records
+Export pre-defined sets of data
+Report Generator
+
+Generate reports based on audit information
+Export logs into text format
+Format recorded time stamps using UTC (ISO 8601)
+Data Administrator
+
+Assign restrictions or privileges to users or groups
+Set inclusion or exclusion of auditable events in SC 02.03
+Configure inactivity timeout
+Patient
+
+Access patient summary documents (HITSP C32 or CCD)
+View medication list and allergy list
+User
+
+Interact with the EHR application concurrently
+Access same record, clinical documentation, or template concurrently
+View audit information (with explicit read-access)
+Prescriber
+
+Send electronic prescription to pharmacy
+Respond to refill requests from pharmacies
+Capture and display formulary information from pharmacy or PBM
+System
+
+Provide ability to identify confidential information and restrict access
+Prevent specified users from accessing patient charts
+Retain data until purged, deleted, archived, or removed
+Support removal of user privileges without deleting the user
+Detect security-relevant events and generate audit records
+Record auditable events in SC 02.03 based on organizational policy
+Authorized User
+
+Access confidential information
+View finalized notes and modifications
+Save and finalize notes
+Record and display user credentials for note entries
+Cosigner
+
+Sign off on notes and modifications
+Administrator (System Administrator)
+
+Assign restrictions or privileges to users or groups
+Set inclusion or exclusion of auditable events in SC 02.03
+Configure inactivity timeout
+Access audit information (with explicit read-access)
+Export logs into text format
+Format recorded time stamps using UTC (ISO 8601)
+Data Analyst
+
+Analyze patient data and trends
+Generate reports based on audit information
+Clinician
+
+View finalized notes and modifications
+Save and finalize notes
+Record and display user credentials for note entries
+Access patient summary documents (HITSP C32 or CCD)
+View medication list and allergy list
+Laboratory System
+
+Receive and store general laboratory results using HL7 v.2.5.1 ORU message standard
+System Auditing Team
+
+Review audit information to detect security-relevant events
+Investigate potential security incidents based on audit records
+
+Actor: Healthcare Provider
+
+The system shall enforce a limit of (configurable) consecutive invalid access attempts by a user.
+Functionalities: Alert healthcare provider when account is locked, provide guidelines for password recovery
+If the system includes hardware, the system shall include documentation that covers the expected physical environment necessary for proper secure and reliable operation of the system including: electrical, HVAC, sterilization, and work area.
+Functionalities: Provide installation guides, ensure compliance with physical security standards
+Actor: Patient Data Entry Staff
+
+The system shall provide only limited feedback information to the user during the authentication.
+Functionalities: Display minimal authentication errors, guide users on password recovery
+When passwords are used, the system shall allow an authenticated user to change their password consistent with password strength rules (SC 03.02).
+Functionalities: Provide password change functionality, ensure password complexity
+Actor: Report Generator
+
+The system shall include documentation that describes the patch (hot-fix) handling process the vendor will use for EHR operating system and underlying tools.
+Functionalities: Generate reports on patch updates, provide alerts on system vulnerabilities
+The system shall be configurable to prevent corruption or loss of data already accepted into the system in the event of a system failure.
+Functionalities: Generate reports on backup status, ensure data integrity
+Actor: Data Administrator
+
+When passwords are used, user accounts that have been reset by an administrator shall require the user to change the password at next successful logon.
+Functionalities: Reset user passwords, enforce password change policies
+The system shall include documentation of product capacities (e.g., number of users, number of transactions per second) and the baseline representative configurations assumed for these capacities.
+Functionalities: Generate reports on system capacity, provide guidelines on configuration
+Actor: Patient
+
+The system shall protect against further possibly malicious user authentication attempts using an appropriate mechanism (e.g., locks the account or node until released by an administrator).
+Functionalities: Limit login attempts, prevent brute-force attacks
+For systems that provide access to PHI through a web browser interface (i.e., HTML over HTTP) shall include the capability to encrypt the data communicated over the network via SSL (HTML over HTTPS).
+Functionalities: Ensure secure communication, protect PHI confidentiality
+Actor: User
+
+The system shall be configurable to prevent corruption or loss of data already accepted into the system in the event of a system failure.
+Functionalities: Provide backup and recovery options, ensure data integrity
+The software used to install and update the system, independent of the mode or method of conveyance, shall be certified free of malevolent software (malware).
+Functionalities: Ensure safe installation process, prevent malware infections
+Actor: Prescriber
+
+The system shall support protection of integrity of all Protected Health Information (PHI) delivered over the Internet or other known open networks via SHA1 hashing and an open protocol such as TLS, SSL, IPSec, XML digital signature, or S or MIME or their successors.
+Functionalities: Ensure secure transmission of PHI, protect data integrity
+Actor: System
+
+The system shall include documentation that explains system error or performance messages to users and administrators, with the actions required.
+Functionalities: Provide clear error messages, guide users on troubleshooting
+The system shall provide the ability to accept updates to drug interaction databases.
+Functionalities: Integrate new database updates, ensure accurate data
+Actor: System Restore Functionality
+
+The system restore functionality shall result in a fully operational and secure state.
+Functionalities: Restore application data, security credentials, and log or audit files
+This state shall include the restoration of the application data, security credentials, and log or audit files to their previous state.
+Functionalities: Ensure complete backup and recovery process, maintain system integrity
+Actor: Mutual Node Authentication
+
+The system shall support ensuring the authenticity of remote nodes (mutual node authentication) when communicating Protected Health Information (PHI) over the Internet or other known open networks using an open protocol (e.g., TLS, SSL, IPSec, XML sig, S or MIME).
+Functionalities: Authenticate remote nodes, ensure secure communication
+Actor: Portable Device Encryption
+
+The system, when storing PHI on any device intended to be portable or removable (e.g., thumb-drives, CD-ROM, PDA, Notebook), shall support use of a standards-based encrypted format using triple-DES (3DES) or the Advanced Encryption Standard (AES) or their successors.
+Functionalities: Encrypt portable devices, ensure secure data storage
+------------------------------------------------------------------------------------------------------------
+
+As a Healthcare Provider, I want to create a single patient record, so that accurate and up-to-date patient information is maintained.
+As a Healthcare Provider, I want to associate key identifier information with patient records, so that patients can be identified accurately.
+As a Healthcare Provider, I want to store more than one identifier per patient record, so that duplicate entries are avoided and patient identity is confirmed.
+As a Healthcare Provider, I want to merge patient information from two records into a single record, so that outdated or incorrect data is updated.
+As a Healthcare Provider, I want to update demographic information about patients, so that patient details are always current.
+As a Healthcare Provider, I want to access demographic information for patient care functions, so that informed decisions can be made about patient treatment.
+As a Healthcare Provider, I want to query for patients by multiple forms of identification, so that the correct patient is identified quickly and accurately.
+As a Healthcare Provider, I want to capture and maintain provider associations with patient encounters, so that healthcare providers can track patient interactions.
+As a Healthcare Provider, I want to associate orders, medications, and notes with problems or diagnoses, so that accurate treatment plans are created.
+As a Healthcare Provider, I want to update problem or diagnosis list with user ID and date, so that patient medical history is up-to-date.
+Patient Data Entry Staff
+
+As a Patient Data Entry Staff, I want to enter demographic information about patients, so that accurate and complete patient records are maintained.
+As a Patient Data Entry Staff, I want to capture medications entered by authorized users other than the prescriber, so that accurate medication lists are created.
+As a Patient Data Entry Staff, I want to update medication list with user ID and date, so that current medication information is available.
+Report Generator
+
+As a Report Generator, I want to include demographic information in reports, so that patient details are easily accessible.
+As a Report Generator, I want to display medication history for patients, so that accurate medication lists can be generated.
+As a Report Generator, I want to generate current medication lists, so that up-to-date medication information is available.
+Data Administrator
+
+As a Data Administrator, I want to maintain historic information for demographic data, so that patient records are retained and accessible.
+As a Data Administrator, I want to store medication information in discrete data fields, so that accurate and detailed medication lists can be created.
+Patient
+
+As a Patient, I want to have a single patient record created, so that accurate and up-to-date patient information is maintained.
+As a Patient, I want to be associated with key identifier information, so that patients can be identified accurately.
+As a Patient, I want to have multiple identifiers stored per record, so that duplicate entries are avoided and patient identity is confirmed.
+As a Patient, I want to have demographic information updated by healthcare providers, so that patient details are always current.
+User
+
+As a User, I want to query for patients by multiple forms of identification, so that the correct patient is identified quickly and accurately.
+As a User, I want to capture and maintain provider associations with patient encounters, so that healthcare providers can track patient interactions.
+As a User, I want to associate orders, medications, and notes with problems or diagnoses, so that accurate treatment plans are created.
+Prescriber
+
+As a Prescriber, I want to record the prescribing of medications including prescriber identity, so that accurate medication lists can be generated.
+As a Prescriber, I want to capture medications entered by authorized users other than themselves, so that accurate medication lists are created.
+System
+
+As the System, I want to create a single patient record, so that accurate and up-to-date patient information is maintained.
+As the System, I want to associate key identifier information with patient records, so that patients can be identified accurately.
+As the System, I want to store more than one identifier per patient record, so that duplicate entries are avoided and patient identity is confirmed.
+Authorized User
+
+As an Authorized User, I want to capture and maintain provider associations with patient encounters, so that healthcare providers can track patient interactions.
+As an Authorized User, I want to associate orders, medications, and notes with problems or diagnoses, so that accurate treatment plans are created.
+Cosigner
+
+As a Cosigner, I want to review and update allergy lists, so that patients' medical history is up-to-date.
+Administrator (System Administrator)
+
+As the Administrator (System Administrator), I want to maintain historic information for demographic data, so that patient records are retained and accessible.
+As the Administrator (System Administrator), I want to store medication information in discrete data fields, so that accurate and detailed medication lists can be created.
+Data Analyst
+
+As a Data Analyst, I want to analyze patient history data, so that insights into patient health trends can be gained.
+Clinician
+
+As a Clinician, I want to access demographic information for patient care functions, so that informed decisions can be made about patient treatment.
+As a Clinician, I want to associate orders, medications, and notes with problems or diagnoses, so that accurate treatment plans are created.
+As a Clinician, I want to update problem or diagnosis list with user ID and date, so that patient medical history is up-to-date.
+Lab Technician
+
+As a Lab Technician, I want to analyze patient lab results data, so that insights into patient health trends can be gained.
+
+Answer: Here is the list of user stories in the format "As a [actor], I want [functionality], so that [goal]":
+
+As a Data Administrator, I want to index scanned documents and associate date/document type, so that documents are easily searchable and accessible.
+As a Patient, I want to receive reminders for necessary follow-up tests based on medication prescribed, so that I can stay on top of my health and treatment plan.
+As a User, I want to search for medications by generic or brand name, so that I can quickly find the medications I need to order or prescribe.
+As a Prescriber, I want to alert users about potential interactions between medications to be prescribed and medication allergies and intolerances listed in the record, so that patients receive safe and effective treatment.
+As a System, I want to provide a view of active orders for an individual patient, so that users can quickly see what tests or procedures are pending or scheduled.
+As a Healthcare Provider, I want to display a dose calculator for patient-specific dosing based on weight, so that patients receive accurate and personalized medication dosing.
+As a Patient Data Entry Staff, I want to capture appropriate order entry detail, including associated diagnosis, so that orders are accurately documented and tracked.
+As a Report Generator, I want to generate reports on medication samples dispensed, including lot number and expiration date, so that stakeholders can track medication inventory and safety.
+As a Data Administrator, I want to maintain a coded list of medications, including a unique identifier for each medication, so that medications are accurately tracked and managed.
+As a Patient, I want to acknowledge results presented to me, so that I am informed and engaged in my healthcare treatment plan.
+As a User, I want to filter or sort results by type of test and test date, so that I can quickly see the information I need to make decisions about patient care.
+As a Prescriber, I want to prescribe medications, including fractions amounts, so that patients receive accurate and precise medication dosing.
+As a System, I want to define a set of items to be ordered as a group through order sets, so that users can streamline ordering processes and reduce errors.
+As an Authorized User, I want to access reference information for prescribing or ordering, so that users have access to accurate and up-to-date information to inform their decisions.
+As a System Auditing Team, I want to retrieve indexed scanned documents based on document type/date, so that stakeholders can quickly find the documents they need to review or audit.
+As an Administrator (System Administrator), I want to manage site-specific care plan, protocol, and guideline documents, so that healthcare providers have access to up-to-date and accurate guidelines for patient care.
+As a Data Analyst, I want to analyze medication samples dispensed, including lot number and expiration date, so that stakeholders can track medication inventory and safety.
+As a User, I want to forward a result to other users, so that stakeholders are informed and engaged in the patient's healthcare treatment plan.
+As an Administrator (System Administrator), I want to modify site-specific standard care plan, protocol, and guideline documents obtained from outside sources, so that healthcare providers have access to up-to-date and accurate guidelines for patient care.
+As a Clinician, I want to add reminders for necessary follow-up tests based on medication prescribed, so that patients receive timely and effective treatment.
+Let me know if you would like me to generate more user stories!
+1. **As a Healthcare Provider, I want to be alerted when an account is locked, so that I can take immediate action to prevent unauthorized access.**
+
+2. **As a Healthcare Provider, I want the system to provide guidelines for password recovery, so that users can reset their passwords easily and securely.**
+
+3. **As a Patient Data Entry Staff, I want the system to display minimal authentication errors, so that users are not confused or distracted by unnecessary information during login attempts.**
+
+4. **As a Patient Data Entry Staff, I want the system to guide users on password recovery, so that they can easily reset their passwords without assistance from administrators.**
+
+5. **As a Report Generator, I want the system to generate reports on patch updates, so that we can ensure our EHR system is up-to-date and secure.**
+
+6. **As a Report Generator, I want the system to provide alerts on system vulnerabilities, so that we can take proactive measures to prevent potential security threats.**
+
+7. **As a Data Administrator, I want the system to reset user passwords, so that users who have forgotten their credentials can easily regain access to the system.**
+
+8. **As a Data Administrator, I want the system to enforce password change policies after an administrator resets a user's password, so that users are required to update their credentials at next successful login.**
+
+9. **As a Patient, I want the system to limit login attempts, so that malicious users cannot repeatedly attempt to guess my login credentials.**
+
+10. **As a Patient, I want the system to ensure secure communication over networks, so that my Protected Health Information (PHI) is safeguarded against interception or unauthorized disclosure.**
+
+11. **As a User, I want the system to provide backup and recovery options, so that we can ensure data integrity in case of system failure or corruption.**
+
+12. **As a Prescriber, I want the system to support protection of integrity of all Protected Health Information (PHI) delivered over the Internet or other known open networks, so that PHI is safeguarded against unauthorized modification or disclosure.**
+
+13. **As a System Restore Functionality, I want the system to result in a fully operational and secure state after restore operation, so that users can access their data without interruption or security risks.**
+
+14. **As a Mutual Node Authentication, I want the system to authenticate remote nodes when communicating Protected Health Information (PHI) over networks, so that PHI is safeguarded against unauthorized access.**
+
+15. **As a Portable Device Encryption, I want the system to support use of encrypted formats on portable devices, so that Protected Health Information (PHI) is safeguarded against unauthorized access or disclosure.**
+
+16. **As a System, I want the system to include documentation explaining system error or performance messages to users and administrators, so that they can troubleshoot issues without assistance.**
+
