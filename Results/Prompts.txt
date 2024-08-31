@@ -1,0 +1,16 @@
+Generate User Stories from the following requirements. Write every User Story in the following format: As a [actor], I want [functionality] so that [goal].
+
+Examples:
+Requirement 1: The system must allow users to reset their password via email.
+User Story: As a registered user, I want to be able to reset my password through a link sent to my email, So that I can regain access to my account if I forget my password.
+
+Requirement 2:  The application should display a summary of recent transactions on the dashboard.
+User Story: As a user, I want to see a summary of my recent transactions on my dashboard, So that I can quickly review my latest financial activities without having to navigate to a separate page.
+
+Requirement 3: The system must support multi-language interfaces. User Story: As a user who speaks a language other than English, I want to be able to switch the system’s interface to my preferred language, So that I can use the application in a language I am comfortable with.
+---------------------
+For each one of the following software requirements:
+1. Identify all the actors
+2. For each actor, identify all the functionalities you can find, not necessarily related to only a specific field. 
+3. For each actor/functionality couple, identify the reason/objective/goal.
+4. Write a list of each throuple (actor/functionality/goal) in the following format: As a [actor], I want [functionality] so that [goal].
