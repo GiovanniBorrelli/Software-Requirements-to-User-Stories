@@ -1,0 +1,44 @@
+metrics results
+--------------------------------
+Chatgpt zeroshot - llama zeroshot
+BLEU Score medio: 0.1516
+ROUGE Scores medi: {'rouge1': 0.441164918702342, 'rouge2': 0.2311523312619161, 'rougeL': 0.3788057751826388}
+METEOR Score medio: 0.3430
+Cosine Similarity: 0.6120
+F1 Score medio: 0.4108
+--------------------------------
+Chatgpt zeroshot - llama fewshot
+BLEU Score medio: 0.1658
+ROUGE Scores medi: {'rouge1': 0.40732511101480484, 'rouge2': 0.22259447380936656, 'rougeL': 0.36072294461571824}
+METEOR Score medio: 0.3213
+Cosine Similarity: 0.5597
+F1 Score medio: 0.3870
+-------------------------------
+Chatgpt zeroshot - llama chain of thoughts
+BLEU Score medio: 0.0526
+ROUGE Scores medi: {'rouge1': 0.3551544977355014, 'rouge2': 0.13139203099503366, 'rougeL': 0.30121539508608686}
+METEOR Score medio: 0.2449
+Cosine Similarity: 0.5648
+F1 Score medio: 0.3221
+-------------------------------
+Chatgpt chain of thoughts - llama chain of thoughts
+BLEU Score medio: 0.0697
+ROUGE Scores medi: {'rouge1': 0.3493647032250676, 'rouge2': 0.14896381591683006, 'rougeL': 0.2928858762516025}
+METEOR Score medio: 0.2902
+Cosine Similarity: 0.5347
+F1 Score medio: 0.3206
+---------------------------------------------------
+Chatgpt chain of thoughts - llama zeroshot
+BLEU Score medio: 0.1329
+ROUGE Scores medi: {'rouge1': 0.4133217481139111, 'rouge2': 0.21827320069185405, 'rougeL': 0.36086650527068137}
+METEOR Score medio: 0.3414
+Cosine Similarity: 0.5937
+F1 Score medio: 0.3788
+--------------------------------------------------
+Chatgpt chain of thoughts - llama fewshot
+BLEU Score medio: 0.0788
+ROUGE Scores medi: {'rouge1': 0.3591993628245295, 'rouge2': 0.15785306415875858, 'rougeL': 0.30151674020860725}
+METEOR Score medio: 0.2753
+Cosine Similarity: 0.5263
+F1 Score medio: 0.3286
+
