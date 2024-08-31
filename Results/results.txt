@@ -1,4 +1,5 @@
 metrics results
+oracle - text file examined/confronted
 --------------------------------
 Chatgpt zeroshot - llama zeroshot
 BLEU Score medio: 0.1516
@@ -41,4 +42,26 @@ ROUGE Scores medi: {'rouge1': 0.3591993628245295, 'rouge2': 0.15785306415875858,
 METEOR Score medio: 0.2753
 Cosine Similarity: 0.5263
 F1 Score medio: 0.3286
+-------------------------------------------------
+Chatgpt selfconsistency - llama zeroshot
+BLEU Score medio: 0.1878
+ROUGE Scores medi: {'rouge1': 0.4382307232079247, 'rouge2': 0.27083410218765125, 'rougeL': 0.387299029632857}
+METEOR Score medio: 0.3508
+Cosine Similarity: 0.6693
+F1 Score medio: 0.4152
+---------------------------------------------
+Chatgpt selfconsistency - llama fewshot
+BLEU Score medio: 0.1580
+ROUGE Scores medi: {'rouge1': 0.3883010279718314, 'rouge2': 0.224767980159764, 'rougeL': 0.3485975881119823}
+METEOR Score medio: 0.3011
+Cosine Similarity: 0.6570
+F1 Score medio: 0.3679
+----------------------------------------
+Chatgpt selfconsistency - llama chain of thoughts
+BLEU Score medio: 0.0587
+ROUGE Scores medi: {'rouge1': 0.3263170473413662, 'rouge2': 0.1357171786111336, 'rougeL': 0.27559019098080734}
+METEOR Score medio: 0.2342
+Cosine Similarity: 0.5751
+F1 Score medio: 0.3027
+
 
