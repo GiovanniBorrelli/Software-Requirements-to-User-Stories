@@ -63,5 +63,26 @@ ROUGE Scores medi: {'rouge1': 0.3263170473413662, 'rouge2': 0.1357171786111336, 
 METEOR Score medio: 0.2342
 Cosine Similarity: 0.5751
 F1 Score medio: 0.3027
+------------------------------------------
+llama and chatgpt zeroshot reduced 10 (it means i only considered 10 requirements)
+BLEU Score medio: 0.2729
+ROUGE Scores medi: {'rouge1': 0.6008678985851097, 'rouge2': 0.41668253248881804, 'rougeL': 0.545213765580838}
+METEOR Score medio: 0.4707
+Cosine Similarity: 0.4912
+F1 Score medio: 0.5757
+
+oppure:
+
+BLEU Score medio: 0.3092
+ROUGE Scores medi: {'rouge1': 0.66, 'rouge2': 0.4772, 'rougeL': 0.6013}
+METEOR Score medio: 0.5301
+BERTScore medio: 0.6651
+
+llama cot and chatgpt zeroshot
+BLEU Score medio: 0.1879
+ROUGE Scores medi: {'rouge1': 0.7045, 'rouge2': 0.4241, 'rougeL': 0.5589}
+METEOR Score medio: 0.5157
+BERTScore medio: 0.6261
+----------------------------
 
 
