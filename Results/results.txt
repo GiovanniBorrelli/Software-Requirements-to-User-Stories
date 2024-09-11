@@ -85,4 +85,11 @@ METEOR Score medio: 0.5157
 BERTScore medio: 0.6261
 ----------------------------
 
+corpus score
+llama zeroshot, chatgpt zeroshot
+BLEU Score medio: 0.2344
+ROUGE Scores medi: {'rouge1': 0.5551, 'rouge2': 0.3884, 'rougeL': 0.4231}
+METEOR Score medio: 0.5352
+BERTScore medio: 0.4447
+
 
