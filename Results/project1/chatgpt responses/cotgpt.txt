@@ -1,0 +1,47 @@
+As a system, I want to create a single patient record for each patient so that data consistency is maintained.
+
+As a system, I want to store and link key identifier information with each patient record so that patients are uniquely identified.
+
+As a system, I want to store multiple identifiers for each patient record so that patient records can be accessed using different IDs.
+
+As a system, I want to identify patients as exempt from reporting so that reporting compliance is maintained.
+
+As a system, I want to merge patient information from two records so that duplicates are consolidated.
+
+As a system, I want to include demographic information in reports so that useful demographic insights are available.
+
+As a system, I want to maintain historic demographic data so that it can be accessed for future reference.
+
+As a system, I want to modify demographic information so that patient data remains current.
+
+As a system, I want to store demographic information in discrete data fields so that it can be easily retrieved by data extraction tools.
+
+As a system, I want to provide access to demographic information needed for patient care so that providers can deliver proper care.
+
+As a system, I want to capture and maintain demographic data in discrete elements so that data entry is accurate and structured.
+
+As a system, I want to provide the ability to query for a patient using multiple identifiers so that patients can be found quickly.
+
+As a system, I want to capture and maintain the identity of all providers associated with an encounter so that care responsibilities are tracked.
+
+As a system, I want to capture and maintain the identity of the principal provider so that the main care provider is clearly identified.
+
+As a system, I want to capture and display all problems or diagnoses so that healthcare providers have complete medical information.
+
+As a system, I want to maintain the onset date of problems or diagnoses so that providers know when issues started.
+
+As a system, I want to maintain the resolution date of problems or diagnoses so that providers know when conditions were resolved.
+
+As a system, I want to record the chronicity of problems or diagnoses so that providers can evaluate their nature.
+
+As a system, I want to record the user ID and date of updates to diagnoses so that changes are tracked.
+
+As a system, I want to associate orders, medications, and notes with problems or diagnoses so that treatments are linked to the right conditions.
+
+As a healthcare provider, I want to access patient demographic information so that I can deliver appropriate care.
+
+As a healthcare provider, I want to access a list of all problems or diagnoses so that I can make informed treatment decisions.
+
+As a healthcare provider, I want to query for a patient using multiple identifiers so that I can quickly locate the correct record.
+
+As a patient, I want my medical record to be accurate and maintained so that I receive the best care based on my health history.

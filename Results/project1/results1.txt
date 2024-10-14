@@ -1,0 +1,50 @@
+Results using llama LLM.
+oracle - fewshot
+BLEU Score medio: 0.6227
+ROUGE Scores medi: {'rouge1': 0.8532, 'rouge2': 0.6995, 'rougeL': 0.7597}
+METEOR Score medio: 0.6517
+BERTScore medio: 0.7462
+
+oracle - zeroshot
+BLEU Score medio: 0.3591
+ROUGE Scores medi: {'rouge1': 0.7402, 'rouge2': 0.4839, 'rougeL': 0.629}
+METEOR Score medio: 0.5889
+BERTScore medio: 0.4978
+
+oracle - selfconsistency
+BLEU Score medio: 0.4882
+ROUGE Scores medi: {'rouge1': 0.7368, 'rouge2': 0.5547, 'rougeL': 0.6267}
+METEOR Score medio: 0.4708
+BERTScore medio: 0.6822
+
+oracle - cot
+BLEU Score medio: 0.2036
+ROUGE Scores medi: {'rouge1': 0.5635, 'rouge2': 0.2878, 'rougeL': 0.4567}
+METEOR Score medio: 0.4144
+BERTScore medio: 0.3167
+-----------------------
+
+Results using chatgpt LLM
+oracle - zeroshot
+BLEU Score medio: 0.4190
+ROUGE Scores medi: {'rouge1': 0.8098, 'rouge2': 0.5961, 'rougeL': 0.6948}
+METEOR Score medio: 0.6549
+BERTScore medio: 0.6443
+
+oracle - fewshot
+BLEU Score medio: 0.3133
+ROUGE Scores medi: {'rouge1': 0.7431, 'rouge2': 0.4698, 'rougeL': 0.6034}
+METEOR Score medio: 0.5601
+BERTScore medio: 0.4965
+
+oracle - cot
+BLEU Score medio: 0.2542
+ROUGE Scores medi: {'rouge1': 0.7404, 'rouge2': 0.4325, 'rougeL': 0.562}
+METEOR Score medio: 0.5066
+BERTScore medio: 0.4072
+
+oracle - selfconsistency
+BLEU Score medio: 0.3060
+ROUGE Scores medi: {'rouge1': 0.7608, 'rouge2': 0.481, 'rougeL': 0.6196}
+METEOR Score medio: 0.5980
+BERTScore medio: 0.5112

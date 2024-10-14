@@ -1,0 +1,35 @@
+As a System Administrator, I want the system to retain its performance levels when adding additional users so that end-users experience no degradation in responsiveness.
+
+As a System Administrator, I want the system to scale with increasing data volume so that it can handle large datasets without impacting performance.
+
+As a System Administrator, I want the system to scale with increasing business demands so that it can meet the growing needs of our organization.
+
+As a Business Owner, I want the system to adapt to changing business rules so that we can easily modify processes as our organization grows.
+
+As a System Administrator, I want the solution to be configured and re-configured through tools that do not require code modifications so that we can make changes without requiring technical expertise.
+
+As a Business Owner, I want the solution to easily allow for modification of business rules so that we can quickly respond to changing needs.
+
+As an End User, I want the screens to be highly re-configurable so that I can arrange field labels and remove unused fields to improve my workflow.
+
+As an End User, I want the screens to allow for addition of custom-defined fields so that I can capture additional data that is important to my work.
+
+As a System Administrator, I want the system to provide the ability to create and possibly modify edits and business rules so that we can adapt to changing needs.
+
+As a System Administrator, I want the system to provide the ability to determine the acceptance or correctness of data so that we can ensure accuracy and reliability.
+
+As an End User, I want the system to provide online access so that I can work from anywhere connected to our organization's WAN.
+
+As a System Administrator, I want the system to secure online access so that we can protect our data and maintain confidentiality.
+
+As an End User, I want the system to provide remote access through web-based VPN so that I can work from anywhere with secure connections.
+
+As a System Administrator, I want the system to securely enable remote access for authorized individuals so that we can protect our data and maintain confidentiality.
+
+As a System Administrator, I want the system to use an open relational database management system so that we can easily integrate with other systems and maintain data portability.
+
+As a System Administrator, I want the system to securely store all organization data so that we can access and use it effectively.
+
+As a System Administrator, I want the system to provide Structured Query Language (SQL) capabilities so that we can easily query and manipulate our organization's data.
+
+As a System Administrator, I want the system to execute database queries so that we can quickly retrieve relevant information to inform our business decisions.

@@ -1,0 +1,39 @@
+As a Patient, I want to have a unique and accurate patient record created for me so that my medical history is preserved and easily accessible.
+
+As an Administrator, I want to store key identifier information for each patient so that accurate and reliable records are maintained.
+
+As an Healthcare Provider, I want to be able to store more than one identifier for each patient so that accurate and complete medical history is maintained.
+
+As an Healthcare Provider, I want to be able to identify patients as exempt from reporting functions so that sensitive information is protected.
+
+As an Healthcare Provider, I want to be able to merge patient information from multiple sources so that accurate and complete medical history is maintained.
+
+As an Administrator, I want to be able to include demographic information in reports so that healthcare professionals have relevant and accurate data.
+
+As an Administrator, I want to be able to maintain historic information for demographic data so that accurate records are preserved.
+
+As an Healthcare Provider, I want to be able to modify demographic information about patients so that accurate records are maintained.
+
+As an Administrator, I want to store demographic information in discrete data fields so that accurate records are maintained.
+
+As an Healthcare Provider, I want to be able to access demographic information so that patient care functions are supported.
+
+As an Healthcare Provider, I want to be able to capture and maintain demographic information so that accurate records are maintained.
+
+As an Healthcare Provider, I want to be able to query for a patient by more than one form of identification so that patient care functions are supported.
+
+As an Healthcare Provider, I want to be able to capture and maintain the identity of all providers associated with a specific patient encounter so that accurate records are maintained.
+
+As an Healthcare Provider, I want to be able to capture and maintain the principal provider responsible for the care of an individual patient so that accurate records are maintained.
+
+As an Healthcare Provider, I want to be able to capture, maintain, and display all problems or diagnoses associated with a patient so that accurate records are maintained.
+
+As an Healthcare Provider, I want to be able to capture the start date of a problem or diagnosis so that accurate records are maintained.
+
+As an Healthcare Provider, I want to be able to capture, maintain, and display patient location information so that accurate records are maintained.
+
+As an Healthcare Provider, I want to be able to update or delete problem or diagnosis information so that accurate records are maintained.
+
+As an Healthcare Provider, I want to be able to update or delete medication information so that accurate records are maintained.
+
+As an Administrator, I want to be able to print reports so that healthcare professionals have relevant and accurate data.

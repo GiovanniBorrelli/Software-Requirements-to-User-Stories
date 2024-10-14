@@ -1,0 +1,32 @@
+The system shall create a single patient record for each patient.
+					
+The system shall associate (store and link) key identifier information (e.g.  system ID  medical record number) with each patient record.	
+				
+The system shall provide the ability to store more than one identifier for each patient record.					
+The system shall provide a field which will identify patients as being exempt from reporting functions.					
+The system shall provide the ability to merge patient information from two patient records into a single patient record.	
+	
+The system shall provide the ability to include demographic information in reports.					
+The system shall provide the ability to maintain and make available historic information for demographic data including prior names  addresses  phone numbers and email addresses.	
+				
+The system shall provide the ability to modify demographic information about the patient.					
+The system shall store demographic information in the patient medical record in separate discrete data fields  such that data extraction tools can retrieve these data.
+					
+The system shall provide the ability to access demographic information such as name  date of birth and gender needed for patient care functions.	
+				
+The system shall capture and maintain demographic information as discrete data elements as part of the patient record.		
+	
+The system shall provide the ability to query for a patient by more than one form of identification.					
+The system shall provide the ability to capture and maintain  as discrete data elements  the identity of all providers associated with a specific patient encounter.	
+				
+The system shall provide the ability to capture and maintain  as discrete data elements  the principal provider responsible for the care of an individual patient.	
+				
+The system shall provide the ability to capture  maintain and display  as discrete data elements  all problems or diagnoses associated with a patient.	
+				
+The system shall provide the ability to maintain the onset date of the problem or diagnosis.					
+The system shall provide the ability to maintain the resolution date of the problem or diagnosis.					
+The system shall provide the ability to record the chronicity (chronic  acute or self-limiting  etc.) of a problem or diagnosis.
+					
+The system shall provide the ability to record the user ID and date of all updates to the problem or diagnosis list.
+
+The system shall provide the ability to associate orders  medications  and notes with one or more problems or diagnoses.

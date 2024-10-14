@@ -1,0 +1,39 @@
+As a healthcare provider, I want to create a single patient record for each patient so that their medical history can be accurately maintained.
+
+As a healthcare provider, I want to associate key identifier information with each patient record so that patients can be easily identified and distinguished from one another.
+
+As a healthcare administrator, I want to store more than one identifier for each patient record so that backup identifiers are available in case of system errors or data loss.
+
+As a healthcare provider, I want to identify patients as being exempt from reporting functions so that sensitive information is not shared with the wrong parties.
+
+As a healthcare provider, I want to merge patient information from two patient records into a single patient record so that duplicate entries can be avoided.
+
+As a report generator, I want to include demographic information in reports so that relevant data is easily accessible and presentable.
+
+As a historian, I want to maintain and make available historic information for demographic data including prior names, addresses, phone numbers, and email addresses so that historical context can be preserved.
+
+As a healthcare provider, I want to modify demographic information about the patient so that updates can be made as needed.
+
+As an EHR system, I want to store demographic information in separate discrete data fields so that extraction tools can retrieve this data efficiently.
+
+As a healthcare provider, I want to access demographic information such as name, date of birth, and gender for patient care functions so that essential information is readily available.
+
+As an EHR system, I want to capture and maintain demographic information as discrete data elements as part of the patient record so that data integrity is maintained.
+
+As a healthcare provider, I want to query for a patient by more than one form of identification so that patients can be easily located using different identifiers.
+
+As an EHR system, I want to capture and maintain the identity of all providers associated with a specific patient encounter so that accurate information about care teams is available.
+
+As an EHR system, I want to capture and maintain the principal provider responsible for the care of an individual patient so that accountability for patient care can be ensured.
+
+As a healthcare provider, I want to capture, maintain, and display all problems or diagnoses associated with a patient so that comprehensive information about medical conditions is accessible.
+
+As a healthcare provider, I want to maintain the onset date of the problem or diagnosis so that accurate timelines for medical conditions can be established.
+
+As a healthcare provider, I want to maintain the resolution date of the problem or diagnosis so that successful treatments and outcomes can be documented.
+
+As a healthcare provider, I want to record the chronicity (chronic, acute, or self-limiting) of a problem or diagnosis so that severity and expected duration can be understood.
+
+As an auditor, I want to record the user ID and date of all updates to the problem or diagnosis list so that accountability for changes is ensured.
+
+As a healthcare provider, I want to associate orders, medications, and notes with one or more problems or diagnoses so that comprehensive information about patient care can be maintained.

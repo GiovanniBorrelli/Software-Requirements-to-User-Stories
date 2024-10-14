@@ -1,0 +1,17 @@
+As a System Administrator, I want the system to retain its performance levels when adding additional users, functions, and data so that it continues to meet the needs of the organization without degradation.
+
+As an IT Manager, I want the system to be scalable and adaptable to meet future growth and expansion needs so that we can easily add new features and accommodate increasing user demands.
+
+As a Configuration Specialist, I want the solution functionality and associated business rules to be configured and re-configured through tools that do not require code modifications so that changes can be made without technical expertise.
+
+As a User, I want the screens to be highly re-configurable, allowing me to reposition and rename field labels, remove or return-off unused fields, maintain data, and add custom-defined fields so that I can tailor my experience to meet my needs.
+
+As a Data Quality Specialist, I want the system to provide the ability to create and possibly modify edits and business rules which determine the acceptance or correctness of data so that we can ensure the accuracy and integrity of our data.
+
+As an End-User, I want the system to provide on-line access by any site connected to the organization WAN so that I can access the system from anywhere within the company network.
+
+As a Remote Worker, I want the system to provide remote access by authorized individuals through web-based VPN access so that I can work from anywhere and still have secure access to the system.
+
+As a Database Administrator, I want the system to use an open relational database management system (RDBMS) to store all organization data so that we can take advantage of industry-standard database technologies.
+
+As a Data Analyst, I want the database system to provide Structured Query Language (SQL) capabilities for database queries so that I can easily retrieve and analyze data from the system.

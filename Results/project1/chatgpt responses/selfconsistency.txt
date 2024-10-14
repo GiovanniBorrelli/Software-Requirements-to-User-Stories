@@ -1,0 +1,39 @@
+As a healthcare provider, I want the system to create a single patient record for each patient so that patient data is consolidated and not duplicated.
+
+As a healthcare provider, I want the system to associate key identifier information with patient records so that I can accurately identify patients and avoid record mix-ups.
+
+As a healthcare provider, I want the system to store more than one identifier for each patient record so that I can manage patients with multiple identification types.
+
+As an administrator, I want to mark patients as exempt from reporting functions so that their data is excluded from certain reports when necessary.
+
+As a system administrator, I want the ability to merge duplicate patient records into one so that I can maintain accurate and consolidated patient information.
+
+As an administrator, I want the ability to include demographic information in reports so that I can analyze and present relevant patient data.
+
+As a healthcare provider, I want to access historical demographic data (e.g., previous addresses) so that I can better understand a patient’s background.
+
+As a healthcare provider, I want to modify patient demographic information so that I can keep their records up-to-date.
+
+As a data analyst, I want demographic information to be stored in separate data fields so that I can easily extract and analyze specific data elements.
+
+As a healthcare provider, I want to access demographic information like name and date of birth so that I can provide accurate patient care.
+
+As a healthcare provider, I want demographic information to be captured as discrete data elements so that I can retrieve and use them in clinical workflows.
+
+As a healthcare provider, I want to search for a patient using different identification types so that I can quickly locate their record.
+
+As a healthcare provider, I want the system to capture the identity of all providers involved in a patient encounter so that the full care team is recorded.
+
+As a healthcare provider, I want to capture the principal provider responsible for a patient’s care so that the main point of responsibility is clear.
+
+As a healthcare provider, I want to capture and display all problems or diagnoses associated with a patient so that I have a complete view of their health conditions.
+
+As a healthcare provider, I want to maintain the onset date of problems or diagnoses so that I can assess the progression of the patient’s condition.
+
+As a healthcare provider, I want to maintain the resolution date of problems or diagnoses so that I can understand when a patient’s health issue was addressed.
+
+As a healthcare provider, I want to record whether a problem is chronic, acute, or self-limiting so that I can tailor the patient’s treatment accordingly.
+
+As an administrator, I want to record the user ID and date of all updates to the problem or diagnosis list so that I can maintain accurate records of changes.
+
+As a healthcare provider, I want to associate orders, medications, and notes with problems or diagnoses so that treatments are clearly related to the patient’s health issues.

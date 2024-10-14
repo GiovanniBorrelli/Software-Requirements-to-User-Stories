@@ -1,0 +1,39 @@
+As a System User, I want the system to create a single patient record for each patient so that all data about a patient is stored in one place.
+
+As a System User, I want the system to associate key identifier information (e.g., system ID, medical record number) with each patient record so that I can correctly identify each patient.
+
+As a System User, I want the system to allow multiple identifiers to be associated with each patient record so that patients with different identifiers can be found accurately.
+
+As a System Administrator, I want the system to provide a field to identify patients as exempt from reporting functions so that I can exclude them when generating reports.
+
+As a Medical Records Manager, I want the system to merge patient information from two records into one so that there is no duplication of patient data.
+
+As a Report Generator, I want the system to include demographic information in reports so that I can analyze patient data accurately.
+
+As a Medical Records Manager, I want the system to maintain and make available historic demographic information, including prior names, addresses, phone numbers, and emails, so that I can trace changes over time.
+
+As a System User, I want the system to allow modification of demographic information about the patient so that I can keep patient records up to date.
+
+As a System User, I want the system to store demographic information in separate discrete data fields so that data extraction tools can easily retrieve these details.
+
+As a System User, I want the system to provide access to demographic information such as name, date of birth, and gender so that I can use it for patient care functions.
+
+As a System Administrator, I want the system to capture and maintain demographic information as discrete data elements in the patient record so that they can be retrieved when needed.
+
+As a System User, I want the system to allow querying for a patient using multiple forms of identification so that I can find the correct patient even if some information is missing.
+
+As a System Administrator, I want the system to capture and maintain the identity of all providers associated with a patient encounter as discrete data elements so that care responsibility is clearly documented.
+
+As a System Administrator, I want the system to capture and maintain the principal provider responsible for the care of a patient as a discrete data element so that the lead provider is identified.
+
+As a Healthcare Provider, I want the system to capture, maintain, and display all problems or diagnoses associated with a patient as discrete data elements so that I can track the patient's medical history accurately.
+
+As a Healthcare Provider, I want the system to maintain the onset date of a problem or diagnosis so that I can monitor how long a condition has been present.
+
+As a Healthcare Provider, I want the system to maintain the resolution date of a problem or diagnosis so that I can document when a condition is resolved.
+
+As a Healthcare Provider, I want the system to record the chronicity (e.g., chronic, acute, or self-limiting) of a problem or diagnosis so that I can understand the nature of the patient's condition.
+
+As a System Administrator, I want the system to record the user ID and date of all updates to the problem or diagnosis list so that I can track who made changes and when.
+
+As a Healthcare Provider, I want the system to associate orders, medications, and notes with one or more problems or diagnoses so that treatment is linked to the correct condition.

@@ -1,0 +1,9 @@
+The system, including programs  database  and ancillary hardware and related software systems, shall be able to retain its performance levels when adding additional users  functions  and data.				
+The system shall be scalable and adaptable to meet future growth and expansion needs.				
+The solution functionality and associated business rules shall be configured and re-configured (through tools that do not require ""code"" modifications).			
+The screens shall be highly re-configurable, providing ability to reposition and rename field labels, remove or return-off unused fields, maintain data and allow addition of custom-defined fields.			
+The system shall provide the ability to create possibly and possibly modify edits and business rules which determine The acceptance or correctness of data.			
+The system shall provide the ability for on-line access by any site connected to the organization WAN.		
+The system shall provide the ability for remote access by authorized individuals (i.e. web based VPN access).	
+The system shall use an open relational database management system (RDBMS) to store all organization data.	
+The database system shall provide Structured Query Language (SQL) capabilities for database queries.			
